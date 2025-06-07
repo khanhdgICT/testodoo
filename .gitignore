@@ -1,0 +1,53 @@
+# Odoo core addons (đừng đẩy)
+addons/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# C extensions
+*.egg-info/
+*.eggs/
+build/
+dist/
+
+# Database files
+*.db
+*.sql
+
+# Log files
+*.log
+
+# virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# Odoo data dir
+odoo-data/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Python environment files
+*.env
+
+# Misc
+*.bak
+*.orig
+*.tmp
+
+# Ignore wkhtmltopdf binaries
+wkhtmltopdf*
+wkhtmltoimage*
